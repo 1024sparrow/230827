@@ -6,10 +6,14 @@ find_package(Qt5 REQUIRED COMPONENTS
 	Widgets
 )
 
-#set(SOURCES
-#	WIN32 main.cpp
-#)
-file(GLOB SOURCES *.cpp)
+set(SOURCES
+	WIN32 main.cpp
+	LanguageIndicatorWidget.h
+	LanguageIndicatorWidget.cpp
+	KeyboardLayoutChangeListener.h
+	KeyboardLayoutChangeListener.cpp
+)
+#file(GLOB SOURCES *.cpp)
 #qt5_add_resources (RCC_SOURCES rc.qrc)
 add_executable(230826 ${SOURCES} ${RCC_SOURCES})
 target_link_libraries(230826 Qt5::Core
