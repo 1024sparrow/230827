@@ -1,3 +1,6 @@
+# Отслеживание новых окон
+# https://stackoverflow.com/questions/4088127/x11-programming-get-notified-if-new-window-appeared
+
 cmake_minimum_required(VERSION 2.8)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
