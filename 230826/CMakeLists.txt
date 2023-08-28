@@ -1,6 +1,9 @@
 # Отслеживание новых окон
 # https://stackoverflow.com/questions/4088127/x11-programming-get-notified-if-new-window-appeared
 
+# Получение списка окон
+# https://stackoverflow.com/questions/252906/how-to-get-the-list-of-open-windows-from-xserver
+
 cmake_minimum_required(VERSION 2.8)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
